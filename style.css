@@ -1,0 +1,260 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Video Chat Container */
+.video-chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Video Display */
+.video-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.video-box p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Chat Box */
+.chat-box {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.chat-messages {
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.chat-messages div {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.chat-messages .message-sent {
+    background-color: #007bff;
+    color: white;
+    text-align: right;
+}
+
+.chat-messages .message-received {
+    background-color: #e0e0e0;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group input {
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.input-group button {
+    border-radius: 0 8px 8px 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.ad-container {
+    background-color: #f9f9f9;
+    padding: 10px;
+    /* Reduced padding for a smaller box */
+    border-radius: 5px;
+    margin-top: 15px;
+    /* Slightly smaller margin */
+    border: 1px solid #ddd;
+    width: 150%;
+    /* Limited width for a compact view */
+    max-width: 350px;
+    /* Prevents the box from growing too wide */
+    margin-left: auto;
+    /* Centers the box horizontally */
+    margin-right: auto;
+    /* Centers the box horizontally */
+}
+
+.ad-container h4 {
+    font-size: 18px;
+    /* Slightly smaller heading */
+    color: #333;
+    margin-bottom: 8px;
+    /* Reduced margin for less space */
+}
+
+.ad-container p {
+    font-size: 12px;
+    /* Smaller font for text */
+    color: #555;
+    margin-bottom: 10px;
+    /* Adjusted spacing */
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subscription-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.subscription-box h3 {
+    font-size: 1.6rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.subscription-box p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.subscription-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.subscription-box ul li {
+    font-size: 0.95rem;
+    color: #555;
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
+}
+
+.subscription-box ul li:first-child {
+    border-top: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+h4,
+h5 {
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}

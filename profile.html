@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuzzMeet Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    
+    <!-- Profile Header with Settings Icon -->
+    <header class="d-flex justify-content-between align-items-center p-3 bg-primary text-white">
+        <a hre><h1 class="ml-3">BuzzMeet</h1></a>
+        <a href="#" class="text-white mr-3"><i class="fas fa-cog"></i> Settings</a>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="container my-5">
+        <div class="profile-card text-center p-4 bg-light shadow rounded">
+            <!-- Profile Picture Upload -->
+            <div class="profile-pic-container">
+                <img id="profile-pic" src="default-pic.png" alt="Profile Picture" class="rounded-circle" width="120" height="120">
+                <input type="file" id="upload-photo" onchange="previewPhoto()" class="mt-2" hidden>
+                <label for="upload-photo" class="btn btn-outline-primary mt-2">Upload Photo</label>
+            </div>
+
+            <!-- User Information -->
+            <form id="profile-form" class="mt-4">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="you@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" class="form-control" required>
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" class="form-control" placeholder="Your Age" required readonly>
+                </div>
+
+                <!-- Edit and Save Buttons -->
+                <button type="button" onclick="enableEdit()" class="btn btn-primary mt-3">Edit</button>
+                <button type="submit" class="btn btn-success mt-3" style="display: none;">Save Changes</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="profile.js"></script>
+</body>
+</html>
