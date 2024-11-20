@@ -74,8 +74,3 @@ Follow these steps to set up BuzzMeet on your local environment:
 - Node.js (version 14 or above)
 - MongoDB (set up and running)
 - Git (for cloning the repository)
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/username/buzzmeet.git
-cd buzzmeet
